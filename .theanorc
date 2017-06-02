@@ -1,0 +1,13 @@
+[cuda]
+root = /usr/local/cuda-8.0
+
+[global]
+device=gpu1
+floatX=float32
+force_device=False
+optimizer_including=cudnn
+optimizer=fast_compile
+
+[nvcc]
+nvcc.flags=-D_FORCE_INLINES
+
