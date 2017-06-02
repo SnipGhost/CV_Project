@@ -5,3 +5,5 @@ people.txt.1
 ..gitignore*
 datasets/*
 model_params/*
+data_set160_dim3.npz
+
