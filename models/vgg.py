@@ -133,4 +133,4 @@ def gen_net(test=False, dim=1):
                              test_loss,
                              updates=updates, allow_input_downcast=True)
     # ==================================================================================================
-    return train_fn, val_fn
+    return train_fn, val_fn, nn_merge
